@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Preço - JS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body>
+        <!--
+        <div>
+            <h2>Carne de gato</h2>
+            <span class="gramas-gato">0</span></br>
+        <input type="text" placeholder="carne de gato" id="carneGato" onkeypress="return onlynumber();" onkeyup="carneGato()">
+    </div>
+
+        <div>
+            <h2>File</h2>
+            <span class="gramas-file">0</span><br>
+        <input type="text" placeholder="file!" id="file" onkeypress="return onlynumber();" onkeyup="carneFile()">
+        </div>
+
+        <div>
+            <span class="somaGeral" >Total de Carnes:</span>
+        </div>
+  
+        -->
+        <label>Carne de Gato</label>
+        <input type="number" class="gato" name="gato" value="0" min="0" max="999"  onkeyup="operadorGlobal()" required></br>
+        <label>Carne de Cachorro</label>
+        <input type="number" class="cachorro" name="cachorro" value="0" min="0" max="999" onkeyup="operadorGlobal()" required><br>
+        <label>Carne de Leão</label>
+        <input type="number" class="leao" name="Leão" value="0" min="0" max="999" onkeyup="operadorGlobal()" required><br>
+        <span class="resultado">0</span>
+        <span class="hide"></span>
+
+            
+
+
+
+
+    </body>
+
+    <script src="script.js"></script>
+</html>
