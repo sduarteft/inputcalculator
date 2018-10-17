@@ -16,7 +16,7 @@
         var z = 500/1000;
         var totalleao = leao * z;
     
-    
+    //TESTE
     
     
          somaGeral = totalCachorro + totalGato + totalleao;
